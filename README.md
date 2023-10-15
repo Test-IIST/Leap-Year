@@ -1,9 +1,25 @@
-# Assignment Template: Python
-This example assignment is written for Python For IIST SCOP Platform. Simply print **Hello World** as it is to pass this assgnment 
+# Leap Year Checker 
 
-### The assignment
-Student simply has to print Hello World (in this manner as it is case senstitive) 
-to print use print like this :
-  testIO.print("your output text")
+Description
+Write a Python program to determine if a given year is a leap year or not. A leap year is a year that comes in every 4 year.
 
+Input
+- An integer `year` (1 ≤ year ≤ 10^6) to be checked for being a leap year.
 
+Constraint
+- The input year is a positive integer.
+
+Output
+- Print "Yes" if the year is a leap year; otherwise, print "No."
+
+**Examples:**
+```
+Input:
+2020
+
+Output:
+Yes
+
+Explanation:
+2020 is a leap year because it is evenly divisible by 4.
+```
